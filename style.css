@@ -1,0 +1,114 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: skyblue;
+}
+
+
+@media (max-width: 480px) {
+    body {
+      flex-direction: row;
+      background-color: black;
+      color: white;
+    }
+    .submit {
+        color: white;
+    }
+}
+
+h1 {
+   text-align: center;
+}
+
+label {
+    padding: 10px 0px 10px 0px;
+}
+
+input {
+    margin: 3px;
+}
+
+/* landscape styling */
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sun {
+    position: relative;
+    top: 40px;
+    left: 90px;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    border: 75px solid yellow;
+    z-index: 1;
+}
+
+#mountains {
+    /* position: relative;
+    top: 240px; */
+    display: flex;
+    justify-content: right;
+    z-index: 2;
+}
+
+.mnt1 {
+    position: relative;
+    left: 35px;
+    top: 15px;
+    display: flex;
+    flex-direction: row;
+    width: 0;
+    height: 0;
+    border-left: 50pt solid transparent;
+    border-right: 60pt solid transparent;
+    border-bottom: 120pt solid grey;
+    z-index: 3;
+}
+
+.mnt2 {
+    position: relative;
+    top: 25px;
+    display: flex;
+    flex-direction: row;
+    width: 0;
+    height: 0;
+    border-left: 50pt solid transparent;
+    border-right: 60pt solid transparent;
+    border-bottom: 120pt solid grey;
+    z-index: 3;
+}
+
+.mnt3 {
+    display: flex;
+    flex-direction: row;
+    width: 0;
+    height: 0;
+    border-left: 50pt solid transparent;
+    border-right: 60pt solid transparent;
+    border-bottom: 120pt solid grey;
+    z-index: 3;
+}
+
+.grass {
+    width: 50;
+    height: 50;
+    border: solid green;
+    border-width: 1.5em;
+    z-index: 4;
+}
+
+/* form styling */
+.form {
+    text-align: center;
+}
+
+.submit {
+    margin: 10px 125px 0px 125px;
+}
+
+.email {
+    padding: 0px 20px 0px;
+}
